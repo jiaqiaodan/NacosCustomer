@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: application-customer
+  cloud:
+    nacos:
+      config:
+        server-addr: 47.101.56.134:8848
+        file-extension: yaml
+        namespace: e234d8dc-382c-434e-b9bd-bb634acc6d18
+        group: DEFAULT_GROUP
+      discovery:
+        server-addr: 47.101.56.134:8848
